@@ -32,7 +32,12 @@ public class Main {
         byte all = 67;
         System.out.println(" byte all is " + all);
 
-
+        //task3.3//
+        int LP = 23;
+        int AS = 27;
+        int EA = 30;
+        short paper = 480;
+        System.out.println(" На каждого ученика рассчитано " + paper / (LP+AS+EA) + " листов бумаги");
 
     }
 }

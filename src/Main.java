@@ -59,7 +59,12 @@ public class Main {
         int totalBrownPaintJars = brownJarPerClass * tptalCkasses;
         System.out.println(" В школе, где " + tptalCkasses + " классов, нужно " + totalWhytePaintJars + " банок белой краски и " + totalBrownPaintJars + " банок коричневой краски");
 
-
+//task3.6//
+        float banano = 80f;
+        float milk = 105f;
+        float icecream = 100f;
+        float egg = 70f;
+        System.out.println(" Завтрак спортсмена составляет " + (banano*5 + milk*2 + icecream*2 + egg*4) + " грамм или " + ((banano * 5) + (milk * 2) + (icecream * 2) + (egg * 4)) / 1000 + " килограмм ");
 
 
 

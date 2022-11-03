@@ -75,6 +75,22 @@ public class Main {
         System.out.println(" При сбрасывании по " + maxWeightightDown + " грамм в день потребуется " + grPerKg / maxWeightightDown + " дней");
         System.out.println(" При сбрасывании по " + middleWeightDown + " грамм в день потребуется " + grPerKg / middleWeightDown + " дней");
 
+        //task3.8//
+        int mashaNowPerMonth = 67760;
+        int mashaNowPerYear = mashaNowPerMonth*12;
+        float mashaNextMonth = mashaNowPerMonth+(mashaNowPerMonth*0.1f);
+        double mashaNextYear = mashaNextMonth*12;
+        System.out.println(" Маша теперь получает " + mashaNextMonth + " рублей. Годовой доход вырос на " + (mashaNextYear - mashaNowPerYear) + " рублей");
+        int denisNowPerMonth = 83690;
+        int denisNowPerYear = denisNowPerMonth*12;
+        float denisNextMonth = denisNowPerMonth+(denisNowPerMonth*0.1f);
+        double denisNextYear = denisNextMonth*12;
+        System.out.println(" Денис теперь получает " + denisNextMonth + " рублей. Годовой доход вырос на " + (denisNextYear - denisNowPerYear) + " рублей");
+        int ChristinaNowPerMonth = 76230;
+        int ChristinaNowPerYear = ChristinaNowPerMonth*12;
+        float ChristinaNextMonth = ChristinaNowPerMonth+(ChristinaNowPerMonth*0.1f);
+        double ChristinaNextYear = ChristinaNextMonth*12;
+        System.out.println(" Кристина теперь получает " + ChristinaNextMonth + " рубля. Годовой доход вырос на " + (ChristinaNextYear - ChristinaNowPerYear) + " рублей");
 
 
     }

@@ -66,6 +66,15 @@ public class Main {
         float egg = 70f;
         System.out.println(" Завтрак спортсмена составляет " + (banano*5 + milk*2 + icecream*2 + egg*4) + " грамм или " + ((banano * 5) + (milk * 2) + (icecream * 2) + (egg * 4)) / 1000 + " килограмм ");
 
+        //task 3.7//
+        float grPerKg = 7*1000f;
+        int minWeightDown = 250;
+        int maxWeightightDown = 500;
+        int middleWeightDown = (maxWeightightDown + minWeightDown) / 2;
+        System.out.println(" При сбрасывании по " + minWeightDown + " грамм в день потребуется " + grPerKg / minWeightDown + " дней");
+        System.out.println(" При сбрасывании по " + maxWeightightDown + " грамм в день потребуется " + grPerKg / maxWeightightDown + " дней");
+        System.out.println(" При сбрасывании по " + middleWeightDown + " грамм в день потребуется " + grPerKg / middleWeightDown + " дней");
+
 
 
     }

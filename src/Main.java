@@ -49,6 +49,19 @@ public class Main {
         System.out.println(" За 3 дня машина произвела " + machinPerDay * 3 + " штук бутылок ");
         System.out.println(" За месяц машина произвела " + machinPerDay * 30 + " штук бутылок ");
 
+        //task3.5//
+        byte allPaintJars = 120;
+        byte whyteJarPerClass = 2;
+        byte brownJarPerClass = 4;
+        int jarsPerClass = whyteJarPerClass + brownJarPerClass;
+        int tptalCkasses = allPaintJars / jarsPerClass;
+        int totalWhytePaintJars = whyteJarPerClass * tptalCkasses;
+        int totalBrownPaintJars = brownJarPerClass * tptalCkasses;
+        System.out.println(" В школе, где " + tptalCkasses + " классов, нужно " + totalWhytePaintJars + " банок белой краски и " + totalBrownPaintJars + " банок коричневой краски");
+
+
+
+
 
     }
 }

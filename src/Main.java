@@ -15,6 +15,23 @@ public class Main {
         double f = 6;
         System.out.println(" Значение переменной f с типом double равно " + f);
 
+        //task3.2//
+        float z = 27.12f;
+        System.out.println(" float z is " + z);
+        long l = 987678965549L;
+        System.out.println(" long l is " + l);
+        float y = 2.786f;
+        System.out.println(" float y is " + y);
+        boolean zen = false;
+        int me = 569;
+        System.out.println(" int me is " + me);
+        short my = -159;
+        System.out.println(" short my is " + my);
+        short Me = 27897;
+        System.out.println(" short Me is " + Me);
+        byte all = 67;
+        System.out.println(" byte all is " + all);
+
 
 
     }

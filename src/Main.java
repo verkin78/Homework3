@@ -39,5 +39,16 @@ public class Main {
         short paper = 480;
         System.out.println(" На каждого ученика рассчитано " + paper / (LP+AS+EA) + " листов бумаги");
 
+        //task3.4//
+        byte machin2Min = 16;
+        System.out.println(" За 1 минуту машина произвела " + machin2Min/2 + " штук бутылок ");
+        byte machin1Min = 8;
+        System.out.println(" За 20 минут машина произвела " + machin1Min * 20 + " штук бутылок ");
+        System.out.println(" В сутки машина произвела " + machin1Min * 60 * 24 + " штук бутылок ");
+        short machinPerDay = 11520;
+        System.out.println(" За 3 дня машина произвела " + machinPerDay * 3 + " штук бутылок ");
+        System.out.println(" За месяц машина произвела " + machinPerDay * 30 + " штук бутылок ");
+
+
     }
 }
